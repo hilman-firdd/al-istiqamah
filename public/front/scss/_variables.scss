@@ -1,0 +1,134 @@
+// Font Family
+$font_1 :'Lato', sans-serif;
+$font_2 :'Noto Serif', serif;
+$btn_bg :#dca73a;
+$heading_color2: #112e41;
+$white_color:#fff;
+// @media #{&laptop}{}
+
+// Responsive Variables
+
+
+$laptop: 'only screen and (min-width: 1200px) and (max-width: 1600px)';
+
+
+$xlg : 'only screen and (min-width: 1200px) and (max-width: 1400px)';
+$slg : 'only screen and (min-width: 1400px) and (max-width: 1600px)';
+
+$lg :'only screen and (min-width: 992px) and (max-width: 1200px)';
+$md:'only screen and (min-width: 768px) and (max-width: 991px)';
+$xs:'(max-width: 767px)';
+$sm: 'only screen and (min-width: 576px) and (max-width: 767px)';
+
+
+/*
+ 
+	@include transition(.4s);
+	color:$theme-color;
+	
+*/
+
+
+
+
+// fonts
+$font1:  'Lato', sans-serif;
+$font2:  'Noto Serif', serif;
+// fonts-size
+
+$heading-color:#2e2e2e;
+$gray-color: #bebebe;
+$gray-color-2: #bdbdbd;
+
+$theme-color: #2e2e2e;
+$theme-color2: #222222;
+$theme-color3: #BC9321;
+$theme-color4: #ff3500;
+
+$gray-color3:#5c5c5c;
+$white_color:#fff;
+
+
+
+$font_1: #909092;
+$font_2: #66666f;
+$font_3: #7f7f7f;
+$font_4: #8a8a8a;
+$font_5: #999999;
+$font_6: #666666;
+$font_7: #5c5c5c;
+$border_color: #fdcb9e;
+$footer_bg: #303030;
+$sidebar_bg: #fbf9ff;
+
+$medium_device : 'only screen and (min-width: 992px) and (max-width: 1200px)';
+$tab_device:'only screen and (min-width: 768px) and (max-width: 991px)';
+$large_mobile: 'only screen and (min-width: 576px) and (max-width: 767px)';
+$tab:'(max-width: 991px)';
+$small_mobile:'(max-width: 576px)';
+$xs_mobile:'(max-width: 420px)';
+$sm_mobile:'only screen and (min-width: 421px) and (max-width: 575px)';
+$big_screen:'only screen and (min-width: 1200px) and (max-width: 1440px)';
+$extra_big_screen: 'only screen and (min-width: 1200px) and (max-width: 3640px)';
+
+// ,,,,,,,,,,,
+$btn_bg: #dca73a;
+$btn_hover: #dca73a;
+$section_bg: #f7f7f7;
+$section_bg_1: #454545;
+$heading_color: #191d34;
+$heading_color2: #ff8b23;
+
+
+
+
+
+.boxed-btn {
+	background: #fff;
+	color: #dca73a !important;
+	display: inline-block;
+	padding: 18px 44px;
+	font-family: $font1;
+	font-size: 14px;
+    font-weight: 400;
+    border: 0;
+    border: 1px solid #dca73a;
+    letter-spacing: 3px;
+    // width: 180px;
+    text-align: center;
+    color: #dca73a;
+    text-transform: uppercase;
+    cursor: pointer;
+    &:hover{
+        background: #dca73a;
+        color: #fff !important;
+        border: 1px solid #dca73a;
+    }
+    &:focus{
+        outline: none;
+    }
+    &.large-width{
+        width: 220px;
+    }
+}
+
+
+
+
+
+$large_device_2:'(min-width: 1501px) and (max-width: 1700px)';
+/* Normal desktop :1200px. */
+$large_device:'(min-width: 1200px) and (max-width: 1500px)';
+
+/* Normal desktop :992px. */
+$mid_device:'(min-width: 992px) and (max-width: 1200px)';
+
+/* Tablet desktop :768px. */
+$tablet_device:'(min-width: 768px) and (max-width: 991px)';
+
+/* small mobile :320px. */
+$mobile_device:'(max-width: 767px)';
+
+/* Large Mobile :480px. */
+$large_mobile:'only screen and (min-width: 480px) and (max-width: 767px)';
+

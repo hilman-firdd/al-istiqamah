@@ -1,0 +1,46 @@
+{
+    "name": "firmantr3/laravel-midtrans",
+    "description": "Midtrans Payment API Wrapper for Laravel.",
+    "type": "library",
+    "require": {
+        "midtrans/midtrans-php": "^2.0",
+        "illuminate/container": "^5.0|^6.0",
+        "illuminate/contracts": "^5.0|^6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0",
+        "orchestra/testbench": "^4.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Firman Taruna Nugraha",
+            "email": "firmantr3@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Firmantr3\\Midtrans\\": "src"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Firmantr3\\Midtrans\\Test\\": "tests"
+        }
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Firmantr3\\Midtrans\\Providers\\MidtransServiceProvider"
+            ]
+        }
+    }
+}

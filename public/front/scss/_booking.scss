@@ -1,0 +1,153 @@
+.booking-area{
+    margin-top: -89px;
+    z-index: 1;
+    position: relative;
+    .booking-wrap{
+        padding: 39px 80px 20px 80px;
+        @media #{$lg}{
+            padding: 34px 46px 20px 42px;
+        }
+        @media #{$sm}{
+            padding: 49px 15px 20px 20px;
+        }
+        @media #{$xs}{
+            padding: 40px 26px 3px 54px;
+        }
+        background:#fff;
+        border-radius: 10px;
+        box-shadow: 0px 8px 79px 0px rgba(0, 0, 0, 0.08);
+        flex-wrap: wrap;
+        @media #{$md}{
+            flex-wrap: wrap;
+        }
+        @media #{$sm}{
+            flex-wrap: wrap;
+        }
+        @media #{$xs}{
+            flex-wrap: wrap;
+        }
+        .single-select-box {
+            @media #{$md}{
+                width: 50%;
+            }
+            @media #{$sm}{
+                width: 100%;
+            }
+            @media #{$xs}{
+                width: 100%;
+            }
+            @media #{$sm}{
+                width: 50%;
+            }
+            @media #{$lg}{
+                width: 50%;
+            }
+        }
+        .boking-tittle{
+            & span{
+                color: #262626;
+                font-size: 16px;
+                margin-bottom: 20px;
+                font-weight: 600;
+                display: block;
+            }
+        }
+        .nice-select.open .list {
+            width: 100%;
+        }
+        .nice-select .list {
+            width: 100%;
+        }
+        .nice-select .list {
+            // width: 100%;
+        }
+        .nice-select {
+            @media #{$xs}{
+                width: 80%;
+            }
+            @media #{$sm}{
+                width: 80%;
+            }
+            @media #{$lg}{
+                width: 50%;
+            }
+            @media #{$md}{
+                width: 80%;
+            }
+        }
+    }
+ 
+
+}
+.select-btn {
+    padding: 27px 49px;
+    @media #{$xs}{
+        width: 80%;
+    }
+    @media #{$sm}{
+        width: 80%;
+    }
+    @media #{$md}{
+        width: 80%;
+    }
+}
+
+.single-select-box.pt-45 {
+    @media #{$xs}{
+        padding-top: 0;
+    }
+    @media #{$sm}{
+        padding-top: 45px;
+    }
+	
+}
+
+.nice-select::after {
+	border-bottom: none;
+    border-right: none;
+    
+	display: block;
+	height: 5px;
+	margin-top: -23px;
+	pointer-events: none;
+	position: absolute;
+	right: 22px;
+	top: 50%;
+    @include transition(.5s);
+	width: 5px;
+	content: "\e64b";
+	font-family: 'themify';
+	font-size: 12px;
+}
+.booking-area .booking-wrap .nice-select.open .list {
+	width: 100%;
+	top: 50px;
+}
+.nice-select .option:hover, .nice-select .option.focus, .nice-select .option.selected.focus {
+	background-color: #dca73a;
+    color: #791616;
+}
+.booking-area .booking-wrap .nice-select.open .list {
+    border: 1px solid #dca73a;
+    width: 100%;
+}
+.gj-textbox-md {
+    @media #{$sm}{
+        width: 40%;
+    }
+    @media #{$md}{
+        width: 80%;
+    }
+    @media #{$xs}{
+        width: 80%;
+    }
+    @media #{$lg}{
+        width: 50%;
+    }
+}
+
+.gj-picker.gj-picker-md.datepicker.gj-unselectable{
+    @media #{$xs}{
+        left: 20px !important;
+    }
+}

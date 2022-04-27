@@ -1,0 +1,88 @@
+.dining-area{
+    .single-dining-area{
+        position: relative;
+        padding: 150px 0;
+        @media #{$md}{
+              padding: 10px 0;
+        }
+        @media #{$sm}{
+              padding: 10px 0;
+        }
+        @media #{$xs}{
+              padding: 10px 0;
+        }
+        &.left-img{
+            position: relative;
+            &::before{
+                position: absolute;
+                left: 0;
+                content: "";
+                top: 0;
+                bottom: 0;
+                background-image: url(../img/dining/dining-img.png);
+                width: 50%;
+                border-radius: 0 5px 0 0;
+                background-size: cover;
+                background-repeat: no-repeat;
+                @media #{$xs}{
+                   display: none;
+              }
+            }
+        }
+        &.right-img{
+            position: relative;
+            &::before{
+                position: absolute;
+                right: 0;
+                content: "";
+                top: 0;
+                bottom: 0;
+                background-image: url(../img/dining/dining-img2.png);
+                width: 50%;
+                border-radius: 0 0 0 5px;
+                background-repeat: no-repeat;
+                background-size: cover;
+                @media #{$xs}{
+                    display: none;
+               }
+            }
+        }
+    }
+
+    .dining-caption{
+        background:rgba(252, 252, 252,.95);
+        padding: 92px 98px 98px 96px;
+        
+        @media #{$md}{
+            padding: 60px 69px 68px 61px;
+        }
+        @media #{$sm}{
+            padding: 57px 59px 65px 79px;
+        }
+        @media #{$xs}{
+            padding: 55px 38px 53px 29px;
+        }
+        border-radius: 5px;
+        & span{
+            color: $theme-color;
+            text-transform: uppercase;
+            margin-bottom: 14px;
+            display: block;
+        }
+        & h3{
+            font-weight: 600;
+            color: #112e41;
+            margin-bottom: 30px;
+        } 
+        & p{
+            margin-bottom: 56px;
+            line-height: 1.6;
+            font-size: 15px;
+            & br{
+                @media #{$xs}{
+                    display: none;
+                }
+            }
+        }
+    }
+}

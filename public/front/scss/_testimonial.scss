@@ -1,0 +1,98 @@
+.testimonial-area{
+    .testimonial-caption{
+        & p{
+            font-size:25px;
+            @media #{$md}{
+                font-size:20px;
+            }
+            @media #{$xs}{
+                font-size:19px;
+            }
+            color: #696868;
+            line-height: 45px;
+            line-height: 1.5;
+            padding: 0 9px;
+            margin-bottom: 37px;
+        }
+    }
+    .testimonial-ratting{
+            margin-bottom: 21px;
+        & i{
+            color: #FBBA42;
+            display: inline-block;
+        }
+    }
+    .rattiong-caption{
+        & span{
+            color:#112e41;
+            font-size: 18px;
+            font-weight: 600;
+            text-transform: uppercase;
+            & span{
+                color: #767676;
+                font-size: 16px;
+                text-transform: capitalize;
+            }
+        }
+    }
+}
+
+/* Homepage1 Testimonial */
+.h1-testimonial-active{
+    button.slick-arrow {
+        position: absolute;
+        top: 50%;
+        left: -133px;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        background: none;
+        border: 0;
+        padding: 0;
+        z-index: 2;
+        opacity: 1;
+        visibility: visible;
+        height: 45px;
+        width: 45px;
+        line-height: 15px;
+        border-radius: 50%;
+        cursor: pointer;
+        background:none;
+        color:#96989a;
+        font-size: 20px;
+        -webkit-transition: .4s;
+        -o-transition: .4s;
+        transition: .4s;
+        
+        @media #{$sm}{
+            left: -45px;
+        }
+         @media #{$sm}{
+            left: -45px;
+        }
+        
+    } 
+   button.slick-next {
+        left: auto;
+        right: -133px;
+        @media #{$sm}{
+            right: -45px;
+        }
+    }
+    &:hover button.slick-prev {
+        left: -120px;
+        @media #{$sm}{
+            left: 0;
+        }
+    }
+    &:hover button.slick-next {
+    right: -120px;
+    @media #{$sm}{
+        right: 0;
+    }
+    }
+    &:hover button {
+        background: $theme-color;
+        color: #fff;
+    }
+}

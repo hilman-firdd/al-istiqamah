@@ -1,0 +1,3 @@
+[16-Apr-2022 08:27:11 Asia/Jakarta] PHP Fatal error:  Cannot use auth as auth because the name is already in use in /home/u1686239/public_html/demohotel_app/app/Http/Controllers/Auth/LoginController.php on line 11
+[16-Apr-2022 08:28:13 Asia/Jakarta] PHP Fatal error:  Cannot use auth as auth because the name is already in use in /home/u1686239/public_html/demohotel_app/app/Http/Controllers/Auth/LoginController.php on line 12
+[17-Apr-2022 09:52:16 Asia/Jakarta] PHP Fatal error:  Cannot use auth as auth because the name is already in use in /home/u1686239/public_html/demohotel_app/app/Http/Controllers/Auth/LoginController.php on line 11

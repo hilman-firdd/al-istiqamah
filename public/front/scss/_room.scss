@@ -1,0 +1,123 @@
+.single-room{
+    &:hover{
+        .room-caption{
+             border: 1px solid #c4c4c4;
+             border-top: transparent;
+        }
+        .room-img{
+            
+            & img{
+                transform: rotate(1deg) scale(1.1);
+            }
+        }
+    }
+    .room-img{
+        overflow: hidden;
+        & img{
+            width: 100%;
+            transform: rotate(0deg) scale(1);
+            @include transition(.6s);
+        }
+    }
+    .room-caption{
+        padding: 33px 20px 33px 30px;
+        box-shadow: 1.395px 19.951px 38px 0px rgba(0, 0, 0, 0.05);
+        border: 1px solid transparent;
+        border-radius:0 0 5px 5px;
+        border-top: 0;
+        @include transition(.3s);
+        &:hover{
+            & h3{
+                & a{
+                    color:$theme-color;
+                }
+            }
+        }
+        & h3{
+            color: #112e41;
+            font-size: 25px;
+            font-weight: 600;
+            margin-bottom: 19px;
+          
+            @media #{$xs}{
+                font-size: 20px;
+            }
+         
+            & a{
+                &:hover{
+                    color: $theme-color;
+                }
+            }
+           
+        }
+        .per-night{
+            & span{
+                color: #112e41;
+                font-size: 18px;
+                font-weight: 600;
+                u{
+                    float: left;
+                    font-size: 14px;
+                    font-family: 'Lato', sans-serif;
+                    text-decoration: none;
+                }
+                span{
+                    color: #848484;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
+
+// Font-back tittle
+.font-back-tittle{
+    position: relative;
+    text-align: center;
+            
+        .archivment-front {
+            position: relative;
+            z-index: 9;
+        }
+        .archivment-front h3 {
+            color:#112e41;
+            font-size: 50px;
+            font-weight: 700;
+            font-family: 'Noto Serif', serif;
+            @media #{$xs}{
+                font-size: 37px;
+            }
+        }
+        h3.archivment-back {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-56%);
+            @media #{$xs}{
+                transform: translateY(-56%);
+            }
+            font-size: 130px;
+            @media #{$md}{
+                font-size:93px;
+            }
+            @media #{$xs}{
+                font-size: 48px;
+            }
+            font-family: 'Snell Roundhand';
+            font-style: italic;
+            right: 0;
+            left: 0;
+            margin: 0 auto;
+            font-family: 'Noto Serif', serif;
+            color: rgba(17, 46, 65, 0.031);
+        }
+        & img {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-56%);
+            right: 0;
+            left: 0;
+            margin: 0 auto;
+        }
+}
+

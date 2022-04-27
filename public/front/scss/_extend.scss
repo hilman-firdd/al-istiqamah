@@ -1,0 +1,24 @@
+.flex-center-start{
+    display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+-webkit-box-pack: start;
+    -ms-flex-pack: start;
+        justify-content: start;
+}
+
+%overlay{
+	background-image: -moz-linear-gradient( 170deg, rgba(34,34,34,0) 0%, rgb(0,0,0) 100%);
+	background-image: -webkit-linear-gradient( 170deg, rgba(34,34,34,0) 0%, rgb(0,0,0) 100%);
+	background-image: -ms-linear-gradient( 170deg, rgba(34,34,34,0) 0%, rgb(0,0,0) 100%);
+  }
+
+  %btn_gradient{
+    background-image: -moz-linear-gradient( 0deg, rgb(241,68,55) 0%, rgb(237,91,13) 99%);
+    background-image: -webkit-linear-gradient( 0deg, rgb(241,68,55) 0%, rgb(237,91,13) 99%);
+    background-image: -ms-linear-gradient( 0deg, rgb(241,68,55) 0%, rgb(237,91,13) 99%);
+  }
+  

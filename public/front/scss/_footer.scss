@@ -1,0 +1,115 @@
+.footer-area{
+    .footer-logo{
+        & img{
+            margin-bottom: 32px;
+        }
+    }
+    // .hotel-name{
+    //     & h3{
+    //         font-size: 27px;
+    //         color:$theme-color;
+    //         font-weight: 600;
+    //         margin-bottom: 32px;
+    //     }
+    //     & img{
+
+    //     }
+    // }
+    .footer-social{
+        margin-bottom: 30px;
+        & a{
+            width: 40px;
+            height: 40px;
+            border: 1px solid#888;
+            background:#fff;
+            display: inline-block;
+            line-height: 40px;
+            text-align: center;
+            color:#949eb2;
+            margin-right: 5px;
+            transition: .3s linear;
+            &:hover{
+                background: none;
+                color: #fff;
+                border: 1px solid #fff;
+                transform: scale(1.1);
+            }
+            & i{
+
+            }
+        }
+    }
+    .footer-social2{
+        & a{
+            &:hover{
+             background: $theme-color;
+             color:#fff;
+             border: 1px solid transparent;
+            }
+            
+        }
+    }
+    .footer-pera{
+        & p{
+            color:#868c98;
+            font-size: 14px;
+            padding-right: 52px;
+            & span{
+                & a{
+                    color:$theme-color;
+                    &:hover{
+                        color:#fff;
+                    }
+                }
+            }
+        }
+    }
+    .footer-tittle{
+        & h4{
+            color: #ffffff;
+            font-size: 20px;
+            margin-bottom: 30px;
+            font-weight: 500;
+        }
+        & ul{
+            & li{
+                color: #868c98;
+                margin-bottom: 14px;
+                & a{
+                    color: #868c98;
+                    font-weight: 300;
+                    &:hover{
+                        color: $theme-color;
+                        padding-left: 5px;
+                    }
+                   
+                }
+            }
+        }
+    }
+    .footer-form{
+        margin-top: 30px;
+        & form{
+            position: relative;
+            & input{
+                width: 100%;
+                height: 43px;
+                padding: 10px 20px;
+                border: 1px solid #fff;
+            }
+            & .form-icon{
+                & button{
+                    position: absolute;
+                    top: 6px;
+                    right: 18px;
+                    background: none;
+                    border: 0;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    .info.error {
+        color:  $theme-color;
+    }
+}

@@ -1,0 +1,66 @@
+
+/*-------------Color variabel--------------*/
+
+// Colors
+$white: #ffffff;
+$black: #16161a;
+$grey:#f7f7fd;
+$theme-color: #dca73a;
+$body-text-color: #555;
+$hr-border-color:#eceff8;
+// Heading Color
+$heading-color: #404040;
+
+
+// bg
+$brand-bg: #f1f4fa;
+$testimonial-bg:#f9fafc;
+
+
+// Soft color
+$black-soft:#7e7e7e;
+
+
+
+
+/*-------------Color include--------------*/
+
+
+/*-- Background color---*/
+
+.grey-bg {
+	background: $grey;
+}
+.white-bg {
+	background:$white;
+}
+.black-bg {
+	background: $black;
+}
+.theme-bg {
+	background:$theme-color;
+}
+.brand-bg{
+	background: $brand-bg;
+}
+.testimonial-bg{
+	background: $testimonial-bg;
+}
+// .primary-bg {
+// 	background: #222;
+// }
+
+
+
+/*--- color------*/
+.white-color {
+	color: $white;
+}
+.black-color {
+	color: $black;
+}
+.theme-color {
+	color: $theme-color;
+}
+
+
